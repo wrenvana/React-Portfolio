@@ -3,6 +3,12 @@ import Footer from './components/Footer'
 import React, { useState } from 'react';
 import './App.css';
 import { useState } from 'react';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Bio from './pages/Bio';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 const App = () => {
 const [currentPage, setCurrentPage] = useState('Home');
